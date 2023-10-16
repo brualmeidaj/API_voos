@@ -1,0 +1,79 @@
+.twitter-typeahead {
+        width: 100%;
+    }
+
+    .tt-menu {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: white;
+        margin-top: -5px;
+        min-height: 100px;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .tt-menu strong {
+        color: #2a3366;
+    }
+
+    .tt-suggestion {
+        padding-left: 10px;
+    }
+
+    .tt-suggestion img {
+        vertical-align: middle;
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+
+    .tt-suggestion p {
+        vertical-align: middle;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .tt-hint {
+        color: #2a3366;
+    }
+
+
+    .home .banner .search .form-search .ico-origem {
+        z-index: 1;
+    }
+
+    .home .banner .search .form-search .ico-destino {
+        z-index: 1;
+    }
+
+    .highlight {
+        font-weight: bold;
+        color: #2a3366;
+    }
+
+    .tt-suggestion:hover {
+        background-color: #293366f0;
+        color: white !important;
+    }
+
+    .tt-suggestion:hover strong {
+        color: white !important;
+    }
+
+    .tt-cursor {
+        background-color: #293366f0;
+        color: white !important;
+    }
+
+    .tt-cursor strong {
+        color: white !important;
+    }
+
+    .empty-message {
+        padding: 5px 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        color: #2a3366;
+        padding-top: 35px;
+    }
